@@ -28,3 +28,4 @@ $("#botAlerta").on("click", function(){
     //alert("Hola mundo desde Typescript");
     swal.fire('Good job!', 'You clicked the button!','success');
 });
+
