@@ -26,6 +26,6 @@ $("p").text("Hola desde acá");
 
 $("#botAlerta").on("click", function(){
     //alert("Hola mundo desde Typescript");
-    swal.fire('Good job!', 'You clicked the button!','success');
+    swal.fire('Buen trabajo!', 'Te has registrado correctamente!','success');
 });
 

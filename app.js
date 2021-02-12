@@ -13,5 +13,5 @@ jQuery(function () {
 });
 $("#botAlerta").on("click", function () {
     //alert("Hola mundo desde Typescript");
-    sweetalert2_1.default.fire('Good job!', 'You clicked the button!', 'success');
+    sweetalert2_1.default.fire('Buen trabajo!', 'Te has registrado correctamente!', 'success');
 });
