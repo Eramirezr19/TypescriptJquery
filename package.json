@@ -11,10 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jquery": "^3.5.5",
+    "@types/sweetalert": "^2.0.4",
     "lite-server": "^2.2.2"
   },
   "dependencies": {
     "jquery": "^3.5.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^10.14.0",
     "systemjs": "^0.19.41"
   }
 }

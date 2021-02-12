@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Demo</title>
+    
+    <!-- <link rel="stylesheet" href="node_modules/sweetalert/dist/sweetalert.css"> -->
   </head>
   <body>
 
@@ -20,7 +22,8 @@
       SystemJS.config({
         baseURL: '/',
         map:{
-          "jquery":"node_modules/jquery/dist/jquery.min.js"
+          "jquery":"node_modules/jquery/dist/jquery.min.js",
+          "sweetalert2": "node_modules/sweetalert2/dist/sweetalert2.all.min.js"
         },
         defaultJSExtensions:true
       });
